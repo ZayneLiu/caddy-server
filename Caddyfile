@@ -1,0 +1,5 @@
+www.example.com {
+        reverse_proxy localhost:3000
+        tls email@example.com
+}
+
