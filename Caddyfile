@@ -3,3 +3,8 @@ www.example.com {
         tls email@example.com
 }
 
+:5000 {
+        reverse_proxy localhost:5001
+        tls email@example.com
+}
+
